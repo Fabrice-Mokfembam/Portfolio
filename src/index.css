@@ -46,3 +46,7 @@ section {
   background-position: center;
   background-repeat: no-repeat;
 }
+
+.open{
+  right: 0;
+}

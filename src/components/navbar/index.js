@@ -84,10 +84,10 @@ const NavBar = () => {
                 />
               </svg>
             </button>
-            {isMenuOpen && (
-              <div className='absolute top-0 left-0 w-full bg-slate-100'>
-                <div className='p-5 bg-white border rounded shadow-sm'>
-                  <div className='flex items-center justify-between mb-4'>
+            
+            <div className={`w-[84vw] fixed bottom-0 top-0 right-[-85vw] transition-all duration-500 ease-in-out   ${ isMenuOpen? 'open': null}`}>
+                <div className='p-5 h-full bg-white border rounded shadow-sm flex flex-col'>
+                  <div className='flex-2 flex items-center justify-between mb-4'>
                     <div>
                       <a href='/' className='inline-flex items-center'>
                         <i className='mr-2 text-2xl text-blue-accent-400 fa-solid fa-layer-group'></i>
@@ -112,8 +112,8 @@ const NavBar = () => {
                       </button>
                     </div>
                   </div>
-                  <nav>
-                    <ul className='space-y-4'>
+                  <nav className=' flex flex-col items-center h-3/4'>
+                    <ul className=' text-center flex flex-col justify-around h-full h-1/2 space-y-4'>
                       <li>
                         <a
                           href='#about-me'
@@ -154,7 +154,7 @@ const NavBar = () => {
                   </nav>
                 </div>
               </div>
-            )}
+          
           </div>
         </div>
       </div>
