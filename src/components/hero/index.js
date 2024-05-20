@@ -1,4 +1,3 @@
-import { handleScroll } from "../../utils/handleScroll";
 import { Profile } from "../../Assets/images";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 

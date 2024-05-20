@@ -1,5 +1,4 @@
 import { Profile2 } from "../../Assets/images";
-import Picture from "../../img/picture.png";
 
 const AboutMe = () => {
   return (
