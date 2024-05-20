@@ -23,7 +23,7 @@ const Hero = () => {
                 </span>
               </h2>
               <p className="text-gray-700 text-[23px] font-medium text-base md:text-lg">
-                I'm a  {' '}
+                I'm a {' '}
                 <span className="font-extrabold text-[25px]">{text}</span>
                 <Cursor 
                   cursorBlinking="false"
@@ -34,7 +34,7 @@ const Hero = () => {
             </div>
             <div className="flex items-center justify-start lg:justify-center">
               <a
-                href="/resume.pdf"
+                href="/F_Resume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="items-center h-12 px-6 py-3 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-blue-accent-400 hover:bg-blue-accent-700"
