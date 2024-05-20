@@ -43,14 +43,14 @@ const AboutMe = () => {
               />
             </div>
             <div className="w-full lg:w-1/2 flex flex-col justify-center p-2 py-8">
-              <p className="text-base roboto text-gray-400 md:text-lg">
+              <p className="text-base poppins text-gray-400 md:text-lg">
                 Hello there! I am a dedicated software engineering student at
                 the esteemed Faculty of Engineering and Technology, University
                 of Buea. With a strong passion for technology, I have been on an
                 exciting journey of developing a diverse range of tech-related
                 skills, making me a versatile full-stack developer.
               </p>
-              <p className="mt-4 text-base roboto text-gray-400 md:text-lg">
+              <p className="mt-4 text-base poppins text-gray-400 md:text-lg">
                 What truly drives me is the thrill of problem-solving and
                 creating innovative, sustainable solutions for the community. I
                 believe that technology has the power to transform lives and

@@ -85,14 +85,14 @@ const NavBar = () => {
               </svg>
             </button>
             {isMenuOpen && (
-              <div className='absolute top-0 left-0 w-full'>
+              <div className='absolute top-0 left-0 w-full bg-slate-100'>
                 <div className='p-5 bg-white border rounded shadow-sm'>
                   <div className='flex items-center justify-between mb-4'>
                     <div>
                       <a href='/' className='inline-flex items-center'>
                         <i className='mr-2 text-2xl text-blue-accent-400 fa-solid fa-layer-group'></i>
                         <span className='ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase'>
-                          RaulWebDev
+                          FabriceDEV
                         </span>
                       </a>
                     </div>
